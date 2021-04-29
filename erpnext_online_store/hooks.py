@@ -7,8 +7,8 @@ from __future__ import unicode_literals
 from . import __version__ as app_version
 
 
-app_name = "erpnext_template"
-app_title = "ERPNext Template"
+app_name = "erpnext_online_store"
+app_title = "ERPNext Online Store"
 app_publisher = "Monogramm"
 app_description = "TODO_APP_DESCRIPTION"
 app_icon = "octicon octicon-file-directory"
@@ -20,12 +20,12 @@ app_license = "AGPL v3"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/erpnext_template/css/erpnext_template.css"
-# app_include_js = "/assets/erpnext_template/js/erpnext_template.js"
+# app_include_css = "/assets/erpnext_online_store/css/erpnext_online_store.css"
+# app_include_js = "/assets/erpnext_online_store/js/erpnext_online_store.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/erpnext_template/css/erpnext_template.css"
-# web_include_js = "/assets/erpnext_template/js/erpnext_template.js"
+# web_include_css = "/assets/erpnext_online_store/css/erpnext_online_store.css"
+# web_include_js = "/assets/erpnext_online_store/js/erpnext_online_store.js"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
@@ -48,7 +48,7 @@ app_license = "AGPL v3"
 # }
 
 # Website user home page (by function)
-# get_website_user_home_page = "erpnext_template.utils.get_home_page"
+# get_website_user_home_page = "erpnext_online_store.utils.get_home_page"
 
 # Generators
 # ----------
@@ -59,14 +59,14 @@ app_license = "AGPL v3"
 # Installation
 # ------------
 
-# before_install = "erpnext_template.install.before_install"
-# after_install = "erpnext_template.install.after_install"
+# before_install = "erpnext_online_store.install.before_install"
+# after_install = "erpnext_online_store.install.after_install"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "erpnext_template.notifications.get_notification_config"
+# notification_config = "erpnext_online_store.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -97,31 +97,31 @@ app_license = "AGPL v3"
 
 # scheduler_events = {
 # 	"all": [
-# 		"erpnext_template.tasks.all"
+# 		"erpnext_online_store.tasks.all"
 # 	],
 # 	"daily": [
-# 		"erpnext_template.tasks.daily"
+# 		"erpnext_online_store.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"erpnext_template.tasks.hourly"
+# 		"erpnext_online_store.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"erpnext_template.tasks.weekly"
+# 		"erpnext_online_store.tasks.weekly"
 # 	]
 # 	"monthly": [
-# 		"erpnext_template.tasks.monthly"
+# 		"erpnext_online_store.tasks.monthly"
 # 	]
 # }
 
 # Testing
 # -------
 
-# before_tests = "erpnext_template.install.before_tests"
+# before_tests = "erpnext_online_store.install.before_tests"
 
 # Overriding Whitelisted Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "erpnext_template.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "erpnext_online_store.event.get_events"
 # }
 

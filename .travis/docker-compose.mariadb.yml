@@ -6,7 +6,6 @@ services:
     build:
       context: ""
       dockerfile: Dockerfile.test
-    command: sh /docker_test.sh
     # Only for travis-ci, do not name test container in dockerhub
     container_name: sut
     depends_on:
@@ -69,7 +68,7 @@ services:
       - DOCKER_DB_ALLOWED_HOSTS=
       - DOCKER_APPS_TIMEOUT=900
       # Frappe setup
-      - FRAPPE_APP_INIT=erpnext erpnext_template
+      - FRAPPE_APP_INIT=erpnext erpnext_online_store
       - FRAPPE_DEFAULT_PROTOCOL=http://
       - FRAPPE_DEFAULT_SITE=${ERPNEXT_SITE}
       - FRAPPE_LOGGING=1

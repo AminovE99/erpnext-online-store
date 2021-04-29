@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
-"""ERPNext Template app configuration."""
+"""ERPNext Online Store app tests."""
 
 from __future__ import unicode_literals

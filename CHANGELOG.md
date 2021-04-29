@@ -6,12 +6,12 @@
 
 ### Added
 
--   🎉 Initial commit \[[9801fb4](https://github.com/Monogramm/erpnext_template/commit/9801fb450678c0a1f248f6cbf561a9426cab0f5f)]
+-   🎉 Initial commit \[[9801fb4](https://github.com/Monogramm/erpnext_online_store/commit/9801fb450678c0a1f248f6cbf561a9426cab0f5f)]
 
 ### Changed
 
--   💄 Change format for app name in doc \[[1337f4c](https://github.com/Monogramm/erpnext_template/commit/1337f4c07c491f0f04b7ebfe22c96a4ede84f3fd)]
--   🍱 Change icon for Docs section in README \[[5adb9d4](https://github.com/Monogramm/erpnext_template/commit/5adb9d4c56cc8e427cc77510b45eff01d0a9d12b)]
+-   💄 Change format for app name in doc \[[1337f4c](https://github.com/Monogramm/erpnext_online_store/commit/1337f4c07c491f0f04b7ebfe22c96a4ede84f3fd)]
+-   🍱 Change icon for Docs section in README \[[5adb9d4](https://github.com/Monogramm/erpnext_online_store/commit/5adb9d4c56cc8e427cc77510b45eff01d0a9d12b)]
 
 ### Security
 

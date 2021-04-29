@@ -6,7 +6,6 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile.test
-    command: sh /docker_test.sh
     # Only for travis-ci, do not name test container in dockerhub
     container_name: sut
     depends_on:
