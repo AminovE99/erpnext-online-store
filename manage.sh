@@ -98,7 +98,6 @@ usage() {
         logs                Follow logs of Dev env
         down                Stop and remove Dev env
         console             Send command to Dev env bench console
-        prepare-release     Prepare Frappe app release
     "
 }
 
