@@ -6,7 +6,6 @@
 from __future__ import unicode_literals
 from . import __version__ as app_version
 
-
 app_name = "erpnext_online_store"
 app_title = "ERPNext Online Store"
 app_publisher = "Monogramm"
@@ -95,23 +94,16 @@ app_license = "AGPL v3"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"erpnext_online_store.tasks.all"
-# 	],
-# 	"daily": [
-# 		"erpnext_online_store.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"erpnext_online_store.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"erpnext_online_store.tasks.weekly"
-# 	]
-# 	"monthly": [
-# 		"erpnext_online_store.tasks.monthly"
-# 	]
-# }
+scheduler_events = {
+    "daily": [
+        "erpnext_online_store.tasks.update_items_info"
+    ],
+    "cron": {
+        '* * * * *': [
+            "erpnext_online_store.tasks.update_items_info"
+        ]
+    }
+}
 
 # Testing
 # -------
@@ -124,4 +116,3 @@ app_license = "AGPL v3"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "erpnext_online_store.event.get_events"
 # }
-
