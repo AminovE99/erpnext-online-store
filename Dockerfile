@@ -1,6 +1,5 @@
 FROM monogramm/docker-erpnext:11-debian
 
-# Install Google Chrome & Chrome WebDriver for UI tests
 RUN set -ex; \
     sudo apt-get update -q; \
     sudo apt-get install -y --no-install-recommends \

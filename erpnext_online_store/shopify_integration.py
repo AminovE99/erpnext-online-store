@@ -1,7 +1,7 @@
 import frappe
 import datetime
 import frappe
-
+import requests
 
 @frappe.whitelist(allow_guest=True)
 def check_qty(**data):
@@ -40,4 +40,6 @@ def check_qty(**data):
         'rate': right_item.valuation_rate
     })
     invoice.insert(ignore_permissions=True)
+    requests.get(f'https://sms.ru/sms/send?api_id=c34f67e7-bde5-3454-75ea-f2a1dccbdc64&to=79872748258&msg=Сформирован '
+                 f'чек {invoice.name} &json=1')
     return invoice.as_dict()

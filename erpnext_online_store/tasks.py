@@ -16,5 +16,4 @@ def update_items_info():
                 item.valuation_rate = field['#text']
             if field['@name'] == 'Артикул':
                 item.item_code = field['#text']
-        print(item.__dict__)
         item.insert(ignore_if_duplicate=True)

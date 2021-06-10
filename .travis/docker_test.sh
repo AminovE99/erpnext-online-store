@@ -67,7 +67,6 @@ if [ -n "${FRAPPE_APP_TO_TEST}" ]; then
     bench doctor
     bench enable-scheduler
     bench doctor
-    bench set-config developer_mode 1
 
     #bench run-tests --help
 
